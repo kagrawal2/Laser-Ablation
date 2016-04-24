@@ -1,0 +1,94 @@
+.jumbotron {
+  background-image: url("images/aster.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.jumbotron .container-fluid {
+  /*position: relative;*/
+  top:78px;
+  /*padding-left: 200px;*/
+
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.jumbotron p {
+  font-size: 25px;
+  color: white;
+}
+
+.center {
+    display: block;
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+}
+
+.video {
+    margin-bottom: 2%
+}
+
+.right {
+    text-align: left;
+}
+.even {
+    /*border-left: 25px black;
+    border-bottom: 25px black;*/
+    border-top: 2px solid #F0F0F0;
+    border-bottom: 2px solid #F0F0F0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+#p1 {
+    font-size: 12px;
+    padding-top: 20%
+}
+
+.box {
+    border-top: 2px solid #F0F0F0;
+    border-bottom: 2px solid #F0F0F0;
+    /*padding-left: 2%;
+    padding-right: 2%;*/
+}
+
+.odd {
+    /*border-top: 25px black;
+    border-bottom: 2px black;*/
+    border-top: 2px solid #0000A0;
+    border-bottom: 2px solid #0000A0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.odd2 {
+    border-top: 2px solid #0000A0;
+    border-bottom: 2px solid #0000A0;
+}
+
+.image:hover {
+    position: relative;
+    top:-25px;
+    left:-35px;
+    width: 500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.button:hover {
+    background-color: #0000A0;
+}
+
+
+
